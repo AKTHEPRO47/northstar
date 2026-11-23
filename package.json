@@ -1,0 +1,1 @@
+{"name":"northstar-private-vault","version":"3.0.0","private":true,"scripts":{"test":"node --test tests/security.cjs"}}

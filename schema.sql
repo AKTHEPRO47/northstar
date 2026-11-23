@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS vaults (
+  id TEXT PRIMARY KEY,
+  auth_hash TEXT NOT NULL,
+  ciphertext TEXT NOT NULL,
+  version INTEGER NOT NULL DEFAULT 1
+);
